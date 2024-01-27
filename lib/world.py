@@ -37,8 +37,16 @@ class World:
 
         self.resturant.nextDay()
 
-        return len(self.people)
+        return self.population
 
     @property
     def remaining_food(self) -> int:
         return sum(map(lambda foodPlace: foodPlace.food, self.resturant.foodPlace))
+
+    @property
+    def population(self) -> int:
+        return len(self.people)
+
+    @property
+    def food_place(self) -> int:
+        return len(self.resturant.foodPlace)

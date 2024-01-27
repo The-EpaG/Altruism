@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 
+
 class Graph:
     def plot_y(self, y_points, show=True, label=None):
         plt.plot(y_points, label=label)
