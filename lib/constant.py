@@ -5,7 +5,7 @@ LOG_FORMAT = "  %(log_color)s%(asctime)-8s%(reset)s | %(log_color)s%(name)s - %(
 
 MAX_DAY = 40
 FOOD_PLACE = 10
-POPOLATION = 1
+POPULATION = 1
 
 OUTPUT_FOLDER = "output"
 OUTPUT_FILE = "output.json"

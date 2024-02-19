@@ -11,7 +11,7 @@ from lib.constant import (
     SAVE,
     SHOW,
     FOOD_PLACE,
-    POPOLATION,
+    POPULATION,
 )
 
 from lib.data import Data
@@ -30,7 +30,7 @@ food: list[int] = []
 data: Data = Data()
 
 world = World(FOOD_PLACE)
-world.populate(POPOLATION)
+world.populate(POPULATION)
 
 logger.info(f"Food place: {world.food_place}")
 logger.info(f"People at the start: {world.population}")
